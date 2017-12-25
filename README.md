@@ -1,8 +1,6 @@
 ## How it all began....
 Sunday, 24. December 2017, my Ubuntu 17.10 boots into emergency mode every time because of some apparmor initialisation problem that no question on askubuntu seems to address or resolve. Funnily there were more questions about this on Redhat and Fedora forums. Secondly I haven't been able to run spacy for a while because of Cython dependency problems that probably creeped in while upgrading to 17.10. Lastly, my laptop, HP Omen seems to be heating way more than it ought to while running Linux and I couldn't figure why. 
 
-![](/home/b/Pictures/Screenshot from 2017-12-24 18-12-04.png) 
-
 
 ## Home Sweet Home
 Because I had initially installed Ubuntu on my SSD with my home as a seperate partition on my Hard Disk, the first task involved restoring that partition as home. 
@@ -14,12 +12,12 @@ First things first:
 sudo apt update
 sudo apt upgrade
 ```
-####Difference between apt and apt-get :
+#### Difference between apt and apt-get :
 *tl;dr* **apt**, introduced in 16.04 is a newer alternative to “Apt-get.” More efficient, more secure, and more user friendly. 
 [Source](https://www.maketecheasier.com/apt-vs-apt-get-ubuntu/)
 
 
-####Difference between update and upgrade :
+#### Difference between update and upgrade :
 - ```apt-get update``` updates the list of available packages and their versions, but it does not install or upgrade any packages.
 - ```apt-get upgrade``` actually installs newer versions of the packages you have. After updating the lists, the package manager knows about available updates for the software you have installed. This is why you first want to update.
 
